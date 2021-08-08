@@ -48,5 +48,5 @@ class FFmpegReceiver:
 
 
 if __name__ == '__main__':
-    streamer = FFmpegReceiver('166.111.224.29')
+    streamer = FFmpegReceiver('127.0.0.1')
     streamer.receive()
