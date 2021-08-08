@@ -85,7 +85,7 @@ class FFmpegStreamer:
 
 
 if __name__ == '__main__':
-    streamer = FFmpegStreamer('166.111.224.29', fps=10, rate=5)
+    streamer = FFmpegStreamer('127.0.0.1', fps=10, rate=5)
     while True:
         streamer.stream()
         time.sleep(1/10)
